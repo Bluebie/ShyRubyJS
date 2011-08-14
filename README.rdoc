@@ -1,16 +1,17 @@
 = ShyRubyJS
 
-Description goes here.
+Little library to convert Ruby blocks into JavaScript code, via S Expressions. Work in progress.
 
-== Contributing to ShyRubyJS
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+I've mainly put this up for feedback and in anticipation of uploading my larger library, a Ruby API for CouchDB providing a query language that parses Ruby blocks as JavaScript (using this library) and language-native document objects.
+
+Use it like this:
+
+require 'shyrubyjs'
+
+parser = ShyRubyJS::ShySexpParser.new
+javascript = parser.parse_block {
+	# any arbitrary code, hopefully
+}
 
 == Copyright
 
