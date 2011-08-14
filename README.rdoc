@@ -6,12 +6,13 @@ I've mainly put this up for feedback and in anticipation of uploading my larger 
 
 Use it like this:
 
-require 'shyrubyjs'
+	require 'shyrubyjs'
 
-parser = ShyRubyJS::ShySexpParser.new
-javascript = parser.parse_block {
-	# any arbitrary code, hopefully
-}
+	parser = ShyRubyJS::ShySexpParser.new
+
+	javascript = parser.parse_block {
+		# any arbitrary code, hopefully
+	}
 
 == Copyright
 
