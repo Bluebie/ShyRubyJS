@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ShyRubyJS"
   gem.homepage = "http://github.com/cerales/ShyRubyJS"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Little library to convert Ruby blocks into JavaScript code, via S Expressions. Work in progress.}
+  gem.description = %Q{Little library to convert Ruby blocks into JavaScript code, via S Expressions. Work in progress.}
   gem.email = "danbryan@gmail.com"
-  gem.authors = ["Cerales"]
+  gem.authors = ["Shy Inc.", "Daniel Bryan", "Cerales"]
+  gem.add_dependency "sourcify", "~> 0"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
