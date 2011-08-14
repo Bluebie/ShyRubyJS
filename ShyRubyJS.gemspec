@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "ShyRubyJS.gemspec",
     "VERSION",
     "lib/ShyRubyJS.rb",
     "test/examples.rb",
