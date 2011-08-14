@@ -4,7 +4,13 @@ Little library to convert Ruby blocks into JavaScript code, via S Expressions. W
 
 I've mainly put this up for feedback and in anticipation of uploading my larger library, a Ruby API for CouchDB providing a query language that parses Ruby blocks as JavaScript (using this library) and language-native document objects.
 
-Use it like this:
+= Installation
+
+Requires Ruby 1.9 or greater.
+
+	gem install ShyRubyJS
+
+= Usage
 
 	require 'shyrubyjs'
 
