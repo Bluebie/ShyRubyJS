@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "ShyRubyJS"
-  gem.homepage = "http://github.com/cerales/ShyRubyJS"
+  gem.homepage = "http://github.com/Cerales/ShyRubyJS"
   gem.license = "MIT"
   gem.summary = %Q{Little library to convert Ruby blocks into JavaScript code, via S Expressions. Work in progress.}
   gem.description = %Q{Little library to convert Ruby blocks into JavaScript code, via S Expressions. Work in progress.}
