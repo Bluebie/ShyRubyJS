@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ShyRubyJS}
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Shy Inc.}, %q{Daniel Bryan}, %q{Cerales}]
-  s.date = %q{2011-08-14}
+  s.date = %q{2011-08-16}
   s.description = %q{Little library to convert Ruby blocks into JavaScript code, via S Expressions. Work in progress.}
   s.email = %q{danbryan@gmail.com}
   s.extra_rdoc_files = [
@@ -26,6 +26,8 @@ Gem::Specification.new do |s|
     "ShyRubyJS.gemspec",
     "VERSION",
     "lib/ShyRubyJS.rb",
+    "pkg/ShyRubyJS-0.0.0.gem",
+    "pkg/ShyRubyJS-0.0.1.gem",
     "test/examples.rb",
     "test/helper.rb",
     "test/test_ShyRubyJS.rb"
