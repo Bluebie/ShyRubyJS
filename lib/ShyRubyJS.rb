@@ -18,7 +18,7 @@ module ShyRubyJS
   
     NL = "\n"
     SPACE = " "
-    INDENT = "  "
+    INDENT = "  " 
   
     def initialize
       literals
@@ -109,6 +109,10 @@ module ShyRubyJS
       end
       return string
     end
+    
+    def iter(body)
+      body.map { |i| parse(i) }
+    end
 
     def const(body)
       return body[0].to_s
@@ -185,6 +189,7 @@ module ShyRubyJS
         :< => "<",
         :* => "*",
         :/ => "/",
+        :== => "==",
       }
     end
 

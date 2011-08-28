@@ -6,13 +6,13 @@ I've mainly put this up for feedback and in anticipation of uploading my larger 
 
 This is the first code I've ever made that's intended for use by other people, so expect it to be awful.
 
-= Installation
+== Installation
 
 Requires Ruby 1.9 or greater.
 
 	gem install ShyRubyJS
 
-= Usage
+== Usage
 
 	require 'shyrubyjs'
 
