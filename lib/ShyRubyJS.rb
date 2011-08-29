@@ -171,7 +171,7 @@ module ShyRubyJS
         :return => "return",
         :and => "&&",
         :or => "||",
-        :! => "!"
+        :! => "!",
       }
     end
     def functions
@@ -189,7 +189,13 @@ module ShyRubyJS
         :< => "<",
         :* => "*",
         :/ => "/",
+        :% => "%",
+        :& => "&",
+        :| => "|",
+        :"^" => "^",
         :== => "==",
+        :eql? => "===",
+        :equal? => "===",
       }
     end
 
